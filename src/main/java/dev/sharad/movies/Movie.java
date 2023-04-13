@@ -11,8 +11,8 @@ import java.util.List;
 
 @Document(collection = "movies")
 @Data
-@NoArgsConstructor
 @AllArgsConstructor
+@NoArgsConstructor
 public class Movie {
 
     @Id
@@ -24,6 +24,6 @@ public class Movie {
     private String poster;
     private List<String> genres;
     private List<String> backdrops;
-    @DocumentReference
+    @DocumentReference // stores id of the review and keep the review in separate collection
     private List<Review> reviewIds;
 }
