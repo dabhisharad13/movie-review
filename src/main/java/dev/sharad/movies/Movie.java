@@ -26,5 +26,5 @@ public class Movie {
     private List<String> genres;
     private List<String> backdrops;
     @DocumentReference // stores id of the review and keep the review in separate collection
-    private List<Review> reviewIds;
+    private List<Review> reviews;
 }
