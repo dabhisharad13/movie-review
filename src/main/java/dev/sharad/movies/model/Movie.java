@@ -1,4 +1,4 @@
-package dev.sharad.movies;
+package dev.sharad.movies.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -10,6 +10,9 @@ import org.springframework.data.mongodb.core.mapping.DocumentReference;
 
 import java.util.List;
 
+/**
+ * Movie data model
+ */
 @Document(collection = "movies")
 @Data
 @AllArgsConstructor

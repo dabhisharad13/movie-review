@@ -1,6 +1,6 @@
 package dev.sharad.movies.repository;
 
-import dev.sharad.movies.Review;
+import dev.sharad.movies.model.Review;
 import org.bson.types.ObjectId;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Repository;

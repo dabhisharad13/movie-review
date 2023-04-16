@@ -1,7 +1,7 @@
 package dev.sharad.movies.service;
 
-import dev.sharad.movies.Movie;
-import dev.sharad.movies.Review;
+import dev.sharad.movies.model.Movie;
+import dev.sharad.movies.model.Review;
 import dev.sharad.movies.repository.ReviewRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.mongodb.core.MongoTemplate;

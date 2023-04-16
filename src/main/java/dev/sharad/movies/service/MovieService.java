@@ -1,6 +1,6 @@
 package dev.sharad.movies.service;
 
-import dev.sharad.movies.Movie;
+import dev.sharad.movies.model.Movie;
 import dev.sharad.movies.repository.MovieRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

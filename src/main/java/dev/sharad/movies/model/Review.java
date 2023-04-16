@@ -1,4 +1,4 @@
-package dev.sharad.movies;
+package dev.sharad.movies.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
